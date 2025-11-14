@@ -15,8 +15,26 @@
         <form id="moodForm">
             <label for="moodInput">How are you feeling today?</label>
             <input type="text" id="moodInput" name="moodInput" required>
-            <button type="submit">Record Mood</button>
+            <hr class ="small-hr">
+            
+            <label for="dateInput">Select a Date:</label>
+            <input type="date" id="dateInput" name="dateInput">
+            <hr class ="small-hr">
+            
+            <label for="moodSelect">What describes your mood the best?</label>
+            <select id="moodSelect" name="moodSelect">
+                <option value="">- select a mood -</option>
+                <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="angry">Angry</option>
+                <option value="anxious">Anxious</option>
+                <option value="excited">Excited</option>
+                <option value="neutral">Neutral</option>
+            </select>
+            <br><br>
+            <button type="submit">Submit</button>
         </form>
+           
     </div>
 </body>
 </html>
