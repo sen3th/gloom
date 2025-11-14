@@ -8,14 +8,14 @@ body{
 .titleContainer {
     color: #333;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .moodRecordContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 70px;
     border: 2px solid #333;
     padding: 10px;
     margin-bottom: 15px;
@@ -28,4 +28,65 @@ body{
 .small-hr {
     border: none;
     height: px;
+}
+
+.long-hr{
+    border:none;
+    height: 20px;
+}
+
+button {
+    background-color: #f6f696;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input{
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select{
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button:hover{
+    transform:scale(1.1)
+}
+
+#moodInput{
+    width: 200px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.topmenu {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: #333 1px solid;
+    border-radius: 5px;
+    background-color: #ffd18c;
+}
+
+#entriesList {
+    margin-top: 20px;
+    margin-left: 175px;
+    width: 100%;
 }

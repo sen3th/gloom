@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="topmenu">
+        <a class="active" href="#home">Home</a>
+        <a href="list.html">Saved Entries</a>
+    </div>
     <div class="titleContainer">
         <h1>Gloom</h1>
-        <p>"Welcome to your no judging zone"</p>
+        <p>"Welcome to your no judge zone"</p>
     </div>
     <div class="moodRecordContainer">
         <form id="moodForm">
@@ -34,7 +38,10 @@
             <br><br>
             <button type="submit">Submit</button>
         </form>
+        <hr class ="long-hr">
+        <div id="entriesList" class="entriesList"></div>
            
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

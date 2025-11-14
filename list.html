@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gloom - Saved Entries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="topmenu">
+        <a class="active" href="index.html">Home</a>
+        <a href="list.html">Saved Entries</a>
+    </div>
+    <div class="titleContainer">
+        <h1>Saved Entries</h1>
+        <p>All entries saved locally in your browser</p>
+    </div>
+    <div id="entriesPage" class="moodRecordContainer">
+        <div id="entriesList"></div>
+        <br>
+        <button id="clearEntries">Clear All</button>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('clearEntries').addEventListener('click', function () {
+            if (confirm('Clear all saved entries?')) {
+                localStorage.removeItem('gloom_moodEntries');
+                renderEntries('entriesList');
+            }
+        });
+    </script>
+</body>
+</html>
