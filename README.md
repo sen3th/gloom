@@ -1,1 +1,1 @@
-Gloom is a simple mood trracking site designed to help monitor and enter daily moods.
+Gloom is a simple mood tracking site designed to help monitor and enter daily moods.
